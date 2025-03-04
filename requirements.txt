@@ -1,6 +1,5 @@
 streamlit
-tensorflow
-opencv-python-headless
 numpy
+onnxruntime
+opencv-python
 Pillow
-gdown
