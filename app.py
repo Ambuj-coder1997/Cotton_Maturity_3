@@ -15,7 +15,7 @@ conf_threshold = st.sidebar.slider("Confidence Threshold", 0.1, 1.0, 0.5, 0.05)
 MODEL_FILE = "model.keras"
 # Google Drive direct download URL.
 # Replace YOUR_FILE_ID with the actual file ID of your model.
-GOOGLE_DRIVE_URL = "https://drive.google.com/uc?id=YOUR_FILE_ID"
+GOOGLE_DRIVE_URL = "https://drive.google.com/file/d/1buaRpIBhS3dnQtXs6ll16NBfOzjIYMAj/view?usp=sharing"
 
 def download_model_if_needed():
     if not os.path.exists(MODEL_FILE):
